@@ -1,0 +1,17 @@
+{
+    "0": {
+        "origin_prompt": "Please complete the following sentence:\nAdam Shaw placed another pack of explosives into the stone cutout in the tunnel. Where to go next? He should have made a map back to the museum lobby; the tunnels were never-ending. Somewhere in the distance, he heard footsteps. He clicked his lantern off.\n\nHe receded deeper into the burial chamber that lay just off the",
+        "prediction": "main tunnel. He had",
+        "gold": "tunnel"
+    },
+    "1": {
+        "origin_prompt": "Please complete the following sentence:\nAfter more elbowing and shoving, Sharma caught Jina’s eye and grinned. That ended the charade and they started laughing. Jina never could be angry with Sharma for long. It was always like that and, in spite of everything, it stayed like that for a long, long time until the business with Zaliek. \nJina said, 'Hey, I can't stand any more of your",
+        "prediction": "nonsense. I",
+        "gold": "whistling"
+    },
+    "2": {
+        "origin_prompt": "Please complete the following sentence:\n“Yes, Grandmother, and don’t worry, I won’t forget my water when I go wander.”\nHer brothers laughed a little only because the comment was so cute. \n“Wonderful my little Wanderer, because I would hate to think of you forgetting an important rule like that.”\n“I would never forget the rules,",
+        "prediction": "Grandmother. I",
+        "gold": "Grandmother"
+    }
+}

@@ -1,0 +1,3 @@
+dataset,version,metric,mode,llama-2-7b-hf
+chid-dev,90451d,accuracy,ppl,45.54
+chid-test,90451d,accuracy,ppl,41.31

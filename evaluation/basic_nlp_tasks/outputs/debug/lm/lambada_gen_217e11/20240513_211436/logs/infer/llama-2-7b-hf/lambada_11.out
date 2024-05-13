@@ -1,0 +1,12 @@
+05/13 21:15:57 - OpenCompass - INFO - Task [llama-2-7b-hf/lambada_11]
+05/13 21:15:59 - OpenCompass - WARNING - pad_token_id is not set for the tokenizer.
+05/13 21:15:59 - OpenCompass - WARNING - Using eos_token_id </s> as pad_token_id.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:18<00:18, 18.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:24<00:00, 11.12s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:24<00:00, 12.16s/it]
+05/13 21:16:25 - OpenCompass - INFO - Start inferencing [llama-2-7b-hf/lambada_11]
+[2024-05-13 21:16:25,797] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/7 [00:00<?, ?it/s]/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+ 14%|█▍        | 1/7 [00:02<00:12,  2.16s/it] 29%|██▊       | 2/7 [00:03<00:08,  1.68s/it] 43%|████▎     | 3/7 [00:04<00:06,  1.52s/it] 57%|█████▋    | 4/7 [00:06<00:04,  1.47s/it] 71%|███████▏  | 5/7 [00:07<00:02,  1.42s/it] 86%|████████▌ | 6/7 [00:08<00:01,  1.39s/it]100%|██████████| 7/7 [00:09<00:00,  1.06s/it]100%|██████████| 7/7 [00:09<00:00,  1.32s/it]
+05/13 21:16:35 - OpenCompass - INFO - time elapsed: 37.42s

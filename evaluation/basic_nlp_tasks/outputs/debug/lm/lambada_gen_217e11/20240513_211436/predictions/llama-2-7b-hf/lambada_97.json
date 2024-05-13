@@ -1,0 +1,252 @@
+{
+    "0": {
+        "origin_prompt": "Please complete the following sentence:\n“Hmm...” Her mother didn’t look convinced.\nShrugging, she tied the thread and got ready to add more to the rose she’d just started on her veil.\n“The poor boy doesn’t stand a chance.”\nShe gasped.  “Why would marrying me be a burden to him?”\n“I didn’t say it would be a",
+        "prediction": "burden. I said",
+        "gold": "burden"
+    },
+    "1": {
+        "origin_prompt": "Please complete the following sentence:\nWillow kissed her head as she walked by, in search of Tommy.\n“Hi dear,” Betty said, breezing out of the kitchen. “Doesn’t the place look festive?”\n“It certainly does,” Willow said. “Have you seen Tommy?”\n“He’s helping me set the table, aren’t you",
+        "prediction": ", dear?”\n“",
+        "gold": "Tommy"
+    },
+    "2": {
+        "origin_prompt": "Please complete the following sentence:\nIf you think you would like to?” \nSelena felt her stomach drop, like it did when she rode a roller coaster. She could only nod her head as she stared. \n“You’re going to need to get yourself an agent. I can recommend a couple different ones.” He wrote some names and numbers on a notepad, then tore the paper off and handed it to",
+        "prediction": "her. “I’",
+        "gold": "Selena"
+    },
+    "3": {
+        "origin_prompt": "Please complete the following sentence:\nThere is always something beautiful and always something ugly. That's the balance of nature.\"\n\nAbby interjected, \"It's difficult for even me to imagine you being told what to do, Zhang.\"\n\n\"I'll admit that not every aspect of this will be easy for me.\"\n\nLil said, \"I wish ... I wish I was as good at giving advice as you are,",
+        "prediction": "Zhang.\"\n\n",
+        "gold": "Zhang"
+    },
+    "4": {
+        "origin_prompt": "Please complete the following sentence:\nOr rather, take turns sleeping and keeping watch.\"\n\n\"That's boring.\" He reached across the bench and untucked the end of the towel, his fingertips brushing heat across my skin. \"Especially when there's other things we could be doing.\"\n\n\"Down boy.\" I slapped his hand away and re-tucked the",
+        "prediction": "towel. \"I",
+        "gold": "towel"
+    },
+    "5": {
+        "origin_prompt": "Please complete the following sentence:\nDried milk-encrusted granola in hanging onto the edges of a black garbage bag. These are the things I like.\"\n\"Oh. Maybe you should start a Weezer cover band,” he said. “The synth? What are you some 80s douche?” Nathan said.\n“Yes, you should know by now Nathan that I’m a",
+        "prediction": "douche. I’",
+        "gold": "douche"
+    },
+    "6": {
+        "origin_prompt": "Please complete the following sentence:\nThe window is coming. Christy, be prepared to leave soon.”\n“Window?” Christy looked up into the sky, but could not see anything. “Where? What window, Ice-Ghost? I do not see one.”\nIce-Ghost continued looking into the sky. “It is coming,” he assured",
+        "prediction": "her. “I can",
+        "gold": "Christy"
+    },
+    "7": {
+        "origin_prompt": "Please complete the following sentence:\nTrista said.\n\nRachel didn't know what to do. She thought that was a bit abrupt of her to just hand her a beer the second they met.\n\n\"Um, no thanks,\" Rachel said.\n\n\"You're a goody, goody,\" Kelly said. \"First you didn't want to get in on my joint, and now the",
+        "prediction": "beer.\"\n\n",
+        "gold": "beer"
+    },
+    "8": {
+        "origin_prompt": "Please complete the following sentence:\n'You call that baring your soul? Ammar, you were speaking in riddles, telling me you realised it wouldn't work and you meant to let me go, blah, blah, blah. Vague nonsense. I still don't understand anything. Understand you.'\n\n'Maybe,' he said, his teeth gritted, 'I don't want to be",
+        "prediction": "understood.'\n\n'",
+        "gold": "understood"
+    },
+    "9": {
+        "origin_prompt": "Please complete the following sentence:\nIf you hadn't walked inside the club I would have remained faithful to my wife, and she would be alive and so would my child.\"\n\n\"I don't understand. Why do you have a wife if you like men? What did I do?\" Brad asked. The tears were endless, and Ben hated himself for the added pain he was causing.\n\nBen closed his eyes, and he turned away from",
+        "prediction": "Brad. He didn'",
+        "gold": "Brad"
+    },
+    "10": {
+        "origin_prompt": "Please complete the following sentence:\n“You know, Sara and I have talked for years about looking for Sanctuary. But we didn’t have the courage to go for it. And we didn’t have the skills to survive in the wild until you showed us all that stuff. Now maybe we’ve got half a chance.”\n“What if you don’t find",
+        "prediction": "Sanctuary?”\n",
+        "gold": "Sanctuary"
+    },
+    "11": {
+        "origin_prompt": "Please complete the following sentence:\nThey have no art as such, only the bald description of personal experience. And as such, they lack the power to evoke their emotions in others. They lack the tools that would allow them to do so. When they want the reader to feel sad, they have no power to make it so. They can only describe a time when they were",
+        "prediction": "sad, and hope that",
+        "gold": "sad"
+    },
+    "12": {
+        "origin_prompt": "Please complete the following sentence:\nIt didn't make a whole lot of sense, but I couldn't think of any other reason she'd be hiding things like this from me, or why Dusty had suddenly decided to cook dinner with me, seeing as how he couldn't cook at all.\n\nBut of course, I pretended that I didn't notice anything out of the ordinary. I'd play along.\n\nDusty stayed for dinner and I was also shocked to discover that he'd brought homework, as well. Call me crazy, but he just didn't seem like the kind of guy who would do",
+        "prediction": "homework.\n\n",
+        "gold": "homework"
+    },
+    "13": {
+        "origin_prompt": "Please complete the following sentence:\nI glanced over at the table and saw that the only people left were people who I didn't know. \"That's a great idea. Mina and I have tons to talk about. Plus, I want to catch up with Max and Noah too.\"\n\nHe kissed me deeply before walking off to join his band mates, and I turned back to",
+        "prediction": "Mina. \"So",
+        "gold": "Mina"
+    },
+    "14": {
+        "origin_prompt": "Please complete the following sentence:\nSophie had used a car service to get to the memorial service from the airport, but had dismissed them when she had arrived.  She knew she would be able to get a ride from one of them.  Katrina and Sophie didn't speak very much on their ride to the apartment.  Katrina decided now would be a good time to breach the subject of the laptop.\n\"Sophie, I know this might not be the best time, but I was wondering if you'd take a look at my laptop, it isn't working,\" said",
+        "prediction": "Katrina.\n",
+        "gold": "Katrina"
+    },
+    "15": {
+        "origin_prompt": "Please complete the following sentence:\nHe then turned around to discover his father sitting in his bed, looking up at him in silence, a vacant expression on his face.  \n“Dad?” responded Charlie, shaking in fear.    \n“Charlie,” Joe James replied.    \nHe was unsure what to believe now.    \n“I was sent here with a message, my boy,” said",
+        "prediction": "Joe James.    \n",
+        "gold": "Joe"
+    },
+    "16": {
+        "origin_prompt": "Please complete the following sentence:\nDon't worry, I'll let you get back to it soon. I only want your opinion.\"\n\nBlast her, had she come here to throw him off guard on purpose? When had she gotten so good at the game?\n\n\"My opinion on what?\" he asked. \"Your new hat?\"\n\n\"Not my hat, although thank you for",
+        "prediction": "the compliment. I",
+        "gold": "noticing"
+    },
+    "17": {
+        "origin_prompt": "Please complete the following sentence:\nI push against his chest, harder and harder until he has to let me go. Logan's on his away across the room. I shove Trip back and slide my hand into the crook of Logan's arm. I brush my hair back from my face. \"What are you doing here,",
+        "prediction": "Logan?\"\n\"",
+        "gold": "Trip"
+    },
+    "18": {
+        "origin_prompt": "Please complete the following sentence:\n\"No, because of something I did. Something that I wanted to make right. I'm not sure I can anymore.\" She'd clung to hope for so long, but it was vanishing.\n\nJamie came closer. Hesitated, then awkwardly patted her shoulder.\n\nCassie almost started crying again. \"We ... we're still looking for your family,",
+        "prediction": "right? I mean,",
+        "gold": "Jamie"
+    },
+    "19": {
+        "origin_prompt": "Please complete the following sentence:\nBut like every journey, no matter how long or winding, it wends its way back, at last, to the beginning.\n\"I'm afraid,\" said Arima.\n\"I've taken care of you so far,\" he said.\n\"That's not what I mean,\" she said. \"We're coming to the end.\"\n\"Of a cruise. Don't be afraid, it's just a",
+        "prediction": "cruise.\"\n\"",
+        "gold": "cruise"
+    },
+    "20": {
+        "origin_prompt": "Please complete the following sentence:\nAnd if you are smart and loyal and brave you'll get your cut of the profits.  So, you have two big incentives to masquerade as a Krull refuge.  1) The whole Kingdom of Avallonia will accuse you of being a worthless coward if you don't pose as a Krull refuge.  And, 2) There won't be any cash for you - no book deal, no product endorsement deals, and no celebrity appearance deals for you, if you refuse to masquerade as a Krull",
+        "prediction": "refuge.\nSo,",
+        "gold": "refuge"
+    },
+    "21": {
+        "origin_prompt": "Please complete the following sentence:\nWe have to get her into surgery. There’s no time.\"\nAnd then the sheet on the cart moved. Alyssa realized for the first time that there was a person under the sheet. At the sound of \"her daughter,\" Alyssa's mother lifted her head up.\nTheir eyes met, and Alyssa realized who was on the",
+        "prediction": "gurney.\n",
+        "gold": "cart"
+    },
+    "22": {
+        "origin_prompt": "Please complete the following sentence:\nShe had won the barrel racing event and, with her eyes still locked with Matt’s, she moved to Rusty and quickly swung into the saddle. She broke the stare finally, as she trotted Rusty into the arena to collect her blue ribbon. \nMatt had drawn his own crowd and, as Selena returned with her blue ribbon, she saw a group of teenagers surrounding him. He signed autographs and laughed as he joked with the group, until finally he was able to break away and join Selena by her horse trailer, where she was unsaddling",
+        "prediction": "Rusty.\n",
+        "gold": "Rusty"
+    },
+    "23": {
+        "origin_prompt": "Please complete the following sentence:\nFrom:\n\nGraham stepped in first, followed by Ellie, but they both paused just beside the coat rack that was shaped like a giant fishhook. Every single pair of eyes in the restaurant had snapped up at their entrance; forks were lowered and lobsters forgotten as they collectively stared at the pair by the door. Ellie's first instinct was to duck behind the hostess stand, or to turn and walk back outside; after so much time spent worrying about this exact scenario, it was odd to stand here before a crowd of faces-some familiar, others not-and let herself be seen with",
+        "prediction": "Graham.\n\nBut",
+        "gold": "Graham"
+    },
+    "24": {
+        "origin_prompt": "Please complete the following sentence:\n\"We're to have tea when Mama comes in,\" Jamie said. He didn't seem at all nervous at Sir Alistair's presence. But then he was blissfully rubbing the dog's ears.\n\nSir Alistair grunted.\n\n\"And eggs and ham and bread and jam,\" Jamie recited. He often forgot things, but not things that had to do with",
+        "prediction": "food.\n\n\"",
+        "gold": "food"
+    },
+    "25": {
+        "origin_prompt": "Please complete the following sentence:\nExcept Monique, who stuck out like a very angry sore thumb among the debuts. Sophronia counted forty-five students in all.\n\nCaptain Niall walked along the row, examining the sticks.\n\nWhen he got to Dimity he took the stick from her. \"An interesting choice.\"\n\n\"I like the shape and smoothness,\" said",
+        "prediction": "Dimity.\n\n",
+        "gold": "Dimity"
+    },
+    "26": {
+        "origin_prompt": "Please complete the following sentence:\nMindful of the promise he had made to Lord Nexus, Michael had originally intended to go straight to the Black Lotus monastery to speak with Solomon about letting the mage have access to the monastery’s library.  However, with Patrick missing he recognized that he could ill afford to be absent from his Knights for any longer than absolutely necessary.  Consequently he had decided he would first check in at The Tears of Belenus before heading to the",
+        "prediction": "monastery.\nThe",
+        "gold": "monastery"
+    },
+    "27": {
+        "origin_prompt": "Please complete the following sentence:\nIt was too tempting. Too easy.\"\n\nOne of his father's first tasks was to get the Hoegbotton army across the Moth in a way that allowed quick return. He accomplished this with boats, with floating bridges that could be taken apart and reused in other ways. From there, \"the Fixer,\" as he came to be called, participated in more than a dozen",
+        "prediction": "battles, and was",
+        "gold": "battles"
+    },
+    "28": {
+        "origin_prompt": "Please complete the following sentence:\nHis sheriff truck was parked in the pole barn, the barn door wide open, inviting me in. I pulled out a can of spray paint I’d purchased from Ray’s and compared the yellow can cover to the color of Blaze’s rusted-out sheriff’s truck.\nClose enough, I thought, and began",
+        "prediction": "to spray.\n",
+        "gold": "spraying"
+    },
+    "29": {
+        "origin_prompt": "Please complete the following sentence:\nIt only happens when you meet your mate and it starts the countdown to the time that you will fully transform.” His body tensed like he didn’t want to tell me that.\n“Transform?” It didn’t sound pleasant and with the way his body reacted, I doubted that it was.\n“Yes, to be with me you have to",
+        "prediction": "transform. It’s",
+        "gold": "transform"
+    },
+    "30": {
+        "origin_prompt": "Please complete the following sentence:\nThe process repeated one hundred and eighty thousand years ago when the Weald-Artois Anticline ridge failed again. The resulting flood finished digging out the English Channel and the caves.\n\n2) The formation of the rift in the cliff (Location: Present-day Etretat)\n\nThe Weald-Artois flood created many lakes in surrounding valleys. An inland fresh water sea was formed on the mainland, not far from the",
+        "prediction": "cliff. The sea",
+        "gold": "caves"
+    },
+    "31": {
+        "origin_prompt": "Please complete the following sentence:\nHow could he have known Saturday was the last time he’d ever get to do that with her, that she’d be dead two days later?\nBiting the side of his tongue and rubbing his nose, Shane suppressed the tears. Granny was in a box, in the dirt, and there wasn’t jack he could do about it. The idea of being buried after he died gave Shane the heebie-jeebies, but it didn’t bother",
+        "prediction": "him as much as the",
+        "gold": "Granny"
+    },
+    "32": {
+        "origin_prompt": "Please complete the following sentence:\nAnd now you've gone and slept with a guy I told you I liked, and you've thrown yourself at the man I'm in love with. You don't want me to be happy.\"\n\nMarley sighed, her heart shattered, her will gone. She couldn't fight this, couldn't change Lizzie. \"Believe what you want. Stay here and do whatever you want,",
+        "prediction": "but I'm going",
+        "gold": "Lizzie"
+    },
+    "33": {
+        "origin_prompt": "Please complete the following sentence:\nYou think I lied about it?\"\n\nHe'd earned her antagonism. \"Not after today. You had a keen grasp on the subject. I'm curious to see how far along you are in your studies.\"\n\n\"I have fifteen hours of classes left before I get my degree. I can't go full-time because of work and...well,",
+        "prediction": "I'm not sure",
+        "gold": "money"
+    },
+    "34": {
+        "origin_prompt": "Please complete the following sentence:\nIn reality, it was just yet another way for guys to gawk at pretty girls.\nAmber kept thinking to herself.  This was the first time Darren had actually followed through with details and a specific plan for how to do something like this.  Maybe he was on to something.  Finally, she said, “Sorry,",
+        "prediction": "I’m just not",
+        "gold": "Darren"
+    },
+    "35": {
+        "origin_prompt": "Please complete the following sentence:\nAs she passed the trailers, she noticed the crowds were thinner than usual, and she remembered Graham saying they'd be filming out on the water. Even so, she spotted one of the photographers smoking a cigarette off to the side, and she quickened her pace, still unsettled by the morning's conversation. She was grateful her first shift was at Sprinkles; even if Quinn was still mad at her, it would be better than being stuck in a small space with Mom all day as she tried to figure out what she was going to do about",
+        "prediction": "the situation.\nShe",
+        "gold": "Graham"
+    },
+    "36": {
+        "origin_prompt": "Please complete the following sentence:\n“We planted you in the bar where you supposedly met me for the first time.  We used pheromone hypnosis so that you’d fall only for me that night.  Continual 4M treatments.  It worked, Amber.  You became my real wife.  My willing wife.  That’s all I ever wanted from you,",
+        "prediction": "Amber.  I",
+        "gold": "Amber"
+    },
+    "37": {
+        "origin_prompt": "Please complete the following sentence:\n“But you really can’t blame me for planning to destroy the Indomitable. Hell, I would have been doing you a favor.”\n“A favor?” growled the Admiral, his previous rage abruptly returning.\n“Yes, yes,” mused Le Jaunte, his unsettling smirk that of a man who knew he had won. “You should, in fact, be thanking me for what I did,",
+        "prediction": "for what I am about",
+        "gold": "Admiral"
+    },
+    "38": {
+        "origin_prompt": "Please complete the following sentence:\n\"Yes. Dave is meeting me for dinner.\"\n\n\"And you're going to tell him that your relationship is over with him, right?\"\n\nJade looked up at him, the worry in her eyes once again. \"Angelo, you really terrify me. I don't want to break up with",
+        "prediction": "Dave. I don'",
+        "gold": "Dave"
+    },
+    "39": {
+        "origin_prompt": "Please complete the following sentence:\nSomething waved from the darkness of the tunnel: something white. It was a handkerchief on a stick. \"Hello?\" called Richard.\n\nThe feather-wrapped roundness of Old Bailey stepped out of the gloom, looking self-conscious and ill at ease. He was waving Richard's handkerchief, and he was sweating. \"It's me little flag,\" he said, pointing to the",
+        "prediction": "handkerchief.",
+        "gold": "handkerchief"
+    },
+    "40": {
+        "origin_prompt": "Please complete the following sentence:\n\"I accepted his proposal because I thought I'd never see you again. You might have been too late.\"\n\nElliot let amusement slip through the shivering horror in his mind. \"No fear of that. I had Ainsley keep an eye on you and tell me everything you did.\"\n\n\"But...\" Juliana looked bewildered. \"When on earth did Ainsley find time to be your",
+        "prediction": "spy?\"\n\n",
+        "gold": "spy"
+    },
+    "41": {
+        "origin_prompt": "Please complete the following sentence:\nElla had given up and gone upstairs, the night aging.\n\nJordan started to quiet, soothed by Spike's warm body, his adrenaline finally running down. Spike's eyes drifted closed, the slowing staccato of Jordan's heartbeat somehow comforting.\n\nHe woke up to sun pouring in the windows. Spike had shifted to human sometime in the night, and so had",
+        "prediction": "Jordan. He was lying",
+        "gold": "Jordan"
+    },
+    "42": {
+        "origin_prompt": "Please complete the following sentence:\n“When the time comes, you’ll know.”  Liam took Claire’s hand folding it over her pouch.  “The Empress saw a light in you that you can’t see through the darkness of your own doubts.  And I can see it too.”\nClaire squeezed the pouch then smiled looking up at",
+        "prediction": "Liam.  “",
+        "gold": "Liam"
+    },
+    "43": {
+        "origin_prompt": "Please complete the following sentence:\nAngel had been so shocked and turned on by what she'd seen that she'd stood and watched. Lash hadn't spoken a word throughout. He'd stood behind her with his arms wrapped around her waist, holding her against him.\n\nThe love was clear to see shining between Hardy and Rose. She wished things were different for her and",
+        "prediction": "Lash. She wished",
+        "gold": "Lash"
+    },
+    "44": {
+        "origin_prompt": "Please complete the following sentence:\nThe sailor frowned awhile, then said, \"There is nothing at all interesting in the ship's brig.\"\n\n\"Thank you very much,\" said Amos, and walked on till he came to another sailor, whose feet were awash in soapsuds. The sailor was pushing a mop back and forth so hard that Amos decided he was trying to scrub the last bit of color off the grey boards. \"Good evening to you too,\" said",
+        "prediction": "Amos.\n\n",
+        "gold": "Amos"
+    },
+    "45": {
+        "origin_prompt": "Please complete the following sentence:\n\"I know danger!\"\n\nAn abrupt sense of peril very near was followed almost immediately by a figure joining them out of a doorway.\n\nBijaz crouched and whimpered.\n\nIt was only Stilgar moving like a war machine, head thrust forward, feet striking the street solidly.\n\nSwiftly, Paul explained the value of the dwarf, handed Bijaz over to",
+        "prediction": "him, and then,",
+        "gold": "Stilgar"
+    },
+    "46": {
+        "origin_prompt": "Please complete the following sentence:\nScott parks the jeep along the road and we all walk down the path together, Morgen leading the way. The trees open up and the garden appears before us. Morgen leads me through the rows, showing me the vegetables growing and ripening. We find pea pods to pick and carrots to pull. I can hardly wait until everything’s ready to",
+        "prediction": "eat.\nI’",
+        "gold": "harvest"
+    },
+    "47": {
+        "origin_prompt": "Please complete the following sentence:\nIn my experience they would have remembered by now and realized what they were doing. And stopped.”\n“No such luck here,” said Gabriel.\n“No,” said Flannery. “No such luck here.”\n“I don’t think we can rule that out though.”\n“What?”\n“That the mirrors may be involved, with the blanket, somehow,” said",
+        "prediction": "Gabriel. “I don",
+        "gold": "Gabriel"
+    },
+    "48": {
+        "origin_prompt": "Please complete the following sentence:\n\"There's so much to learn, that's all.\"\nThey wandered around for a while, chattered with a few of the locals until they saw Kate waving them back to the airplane. A few moments later, the engines started and they were off and flying adjacent to snow covered peaks.\nReid came back and told the girls to go up to the",
+        "prediction": "cockpit and see",
+        "gold": "cockpit"
+    },
+    "49": {
+        "origin_prompt": "Please complete the following sentence:\nCould be a bit dodgy.\n“Channel 19 on your radio,” Clayton told Miller, “for direct contact with your support. The Swiss Army will be listening out, so don’t hesitate to use it as an emergency frequency. They’re used to working in that terrain.”\n“So I should hope,” said",
+        "prediction": "Miller. “I’",
+        "gold": "Miller"
+    }
+}

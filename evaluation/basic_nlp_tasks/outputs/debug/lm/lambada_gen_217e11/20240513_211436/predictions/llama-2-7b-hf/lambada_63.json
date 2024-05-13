@@ -1,0 +1,252 @@
+{
+    "0": {
+        "origin_prompt": "Please complete the following sentence:\nI have never dared to enter into the witch’s cauldron by myself, but I have seen it flown without her being in it. When the renegade we called Waxen Dwarf helped trap Princess Ringold’s mother, he was allowed to use her cauldron. He flew it by himself!” \nChristy asked Gloo, “How is that possible? Does the Waxen Dwarf possess magic?”\n“No, I think it flew because the witch can store her magic in it, magic that controls the cauldron,” replied",
+        "prediction": "Gloo.\n“",
+        "gold": "Gloo"
+    },
+    "1": {
+        "origin_prompt": "Please complete the following sentence:\n\"Yes, yes, they do, Stephanie.  Each year they have a whackero parade and your grandfather is in it.  Tomorrow when we wake up we have to dress up like mountain men and drive up to the mountains together and we'll all be in a parade of mountain men and whackeros.\"\n\"This is so weird,\" said",
+        "prediction": "Stephanie.\n\"",
+        "gold": "Stephanie"
+    },
+    "2": {
+        "origin_prompt": "Please complete the following sentence:\nHis gaze moved over her from head to foot. She looked good enough to eat, he thought. Literally. She smelled good, too, like a fragrant breeze on a warm summer day.\n\n\"Me, either.\"\n\n\"How was your day?\" he asked.\n\n\"Not very productive. I kept returning books to the wrong",
+        "prediction": "shelves.\"\n",
+        "gold": "shelf"
+    },
+    "3": {
+        "origin_prompt": "Please complete the following sentence:\nMonika rolled her eyes and muttered, “Fine, I suppose that’ll be fine enough for me, but this whole trip doesn’t mean that we have to suspend our life. It doesn’t mean that we can restrain our passions. It hardly seems healthy to me, especially your fears about me. I’ve always been strong enough to face anything, you know that. Childbirth and raising a child won’t be",
+        "prediction": "any different.”\n“",
+        "gold": "different"
+    },
+    "4": {
+        "origin_prompt": "Please complete the following sentence:\nBoys.\n\n\"You have any paper towels?\" I said.\n\n\"In the supplies box,\" Simon said, glancing around. \"Here.\" He kicked the box with his foot. I got some out, handing them to both of the boys. Inevitably, one or both of them was going to",
+        "prediction": "get a paper cut.",
+        "gold": "spill"
+    },
+    "5": {
+        "origin_prompt": "Please complete the following sentence:\nI’ll come out when I see you, don’t bother parking.”\n“White Pathfinder, what’s the address?” Irina gave Bob the address and he entered it into the GPS navigator, an easy enough task when crawling along at five miles an hour.\nBob barely made it to Palo Alto in time to check in at the Garden, quickly wash up and then head out to pick up",
+        "prediction": "Irina. He was",
+        "gold": "Irina"
+    },
+    "6": {
+        "origin_prompt": "Please complete the following sentence:\nAnna asked as she turned one of the other boots upside down and struck the bottom of it with her hand a few times.\n“Oh, I don’t know,” I replied. “I’m just thinking about some of the books I saw today.”\nAnna looked at me and asked, “What",
+        "prediction": "books?”\n“Well",
+        "gold": "books"
+    },
+    "7": {
+        "origin_prompt": "Please complete the following sentence:\n\"I just can't figure this stuff out. I thought my last paper was perfect and I got a C!\"\n\nLevi turned to me with mock shock. \"A C? Alert the authorities.\"\n\nI crossed my arms. \"Yes, because caring about my grades somehow makes me lame.\"\n\n\"That's not what makes you",
+        "prediction": "lame,\" Levi",
+        "gold": "lame"
+    },
+    "8": {
+        "origin_prompt": "Please complete the following sentence:\nThe raptors fanned out as they came closer, one staying in the center, the other two moving to each side. Coordinated. Smooth. Gennaro shivered.\n\nPack behavior.\n\nMuldoon was already crouching, setting the launcher on his shoulder. \"Load,\" he said. Gennaro slipped the shell in the back of the",
+        "prediction": "launcher, then sl",
+        "gold": "launcher"
+    },
+    "9": {
+        "origin_prompt": "Please complete the following sentence:\n\"We have to split up, make them divide their forces,\" I said.\nZach considered, then nodded reluctantly. \"Make them chase and search for us.\"\n\"We'll meet out there,\" I said. I pointed into the Pacific Desert.\n\"In the wastes? Julia, we can't,\" said",
+        "prediction": "Zach.\n\"We",
+        "gold": "Zach"
+    },
+    "10": {
+        "origin_prompt": "Please complete the following sentence:\nEven with a substantial amount of pills and no treatment it would take a few days to die, and it would be a painful and cruel way to go. The liver can’t break down the Tylenol, so it will be severely damaged. Most of the 450 women and girls are now being treated for liver damage, and many may need liver transplants down the road.” He had a calming voice.\n“Is Amber going to need a",
+        "prediction": "liver transplant?”",
+        "gold": "transplant"
+    },
+    "11": {
+        "origin_prompt": "Please complete the following sentence:\n\"H-he bit me.\"\n\nThe primal virus.\n\nShe grabbed Jamie's arm. \"Come with me to the lab, now.\"\n\n\"I'm dead! I'm dead!\" He jerked away from her and bent to grab a chunk of wood. Then he was back, his hands shaking, as he grabbed her fingers and curled them around the",
+        "prediction": "wood. \"I'",
+        "gold": "wood"
+    },
+    "12": {
+        "origin_prompt": "Please complete the following sentence:\nEven so, Chara took Sara’s hand and smeared the jelly across her palm. The relief was instantaneous. It felt cool and soothing. “Thank you,” she said. \nA bump came from the front of the house. It sounded like a door opening. Chara and Adelpha looked at each other with eyes wide and then they looked at",
+        "prediction": "the door.\n“",
+        "gold": "Sara"
+    },
+    "13": {
+        "origin_prompt": "Please complete the following sentence:\n\"That's great news.  Maybe we'll start to make some progress now.\"\nStan exchanged a quick glance with Mr. Courtlen.  Nella ignored it.  \"I guess you'll be wanting Frank then,\" he said.\nNella smiled.  \"If you're ready Mr. Courtlen.\"\n\"As I'll ever be,\" said Frank, \"Have a good day",
+        "prediction": ".\"\n\"You too",
+        "gold": "Stan"
+    },
+    "14": {
+        "origin_prompt": "Please complete the following sentence:\n'A black-hooded monk - who lacks one of his ten fingers.'\n\n'Hmmn. Brother Guido has only nine toes. Are you sure it wasn't a toe?'\n\n'Quite sure.'\n\n'And then there's Brother Domenico, but it's his entire left arm he's lacking.'\n\n'No. I'm sorry, but I'm quite sure it was a",
+        "prediction": "finger.'\n\n'",
+        "gold": "finger"
+    },
+    "15": {
+        "origin_prompt": "Please complete the following sentence:\nDespite his many centuries of living, for the most part he felt not much older than he'd been when he graduated from the Elite Academy with Aidan.\n\nSure, he could no longer f**k all night and tear up Nightmares the next day without feeling like rubber. But that was more of a dig to his male pride, than it was a sign of his age.\n\nRight now, though, he felt every one of his",
+        "prediction": "years.\n\nHe",
+        "gold": "years"
+    },
+    "16": {
+        "origin_prompt": "Please complete the following sentence:\nHe reached under the table and grabbed a two-gallon jug of generic peanut butter. \"Can you handle it?\"\n\n\"I'm an expert,\" I said.\n\nHe watched me work. The line was momentarily short; he wanted to talk.\n\n\"I thought you were a lawyer,\" I said, spreading peanut butter.\n\n\"I'm a human first, then a",
+        "prediction": "lawyer,\" he said.",
+        "gold": "lawyer"
+    },
+    "17": {
+        "origin_prompt": "Please complete the following sentence:\nIf I were a guy I'd totally do you.\" Her dead serious expression told me she wasn't kidding.\n\nI inspected myself in the large mirror. This was a dress I'd never wear back home, but we weren't back home. No one knew me here. Besides, Sylvie was right, I looked",
+        "prediction": "good.\n\n\"",
+        "gold": "hot"
+    },
+    "18": {
+        "origin_prompt": "Please complete the following sentence:\n\"Barrett said his dad told him you were very small,\" she added wryly, \"and he wasn't kidding.\"\n\n\"For Martin's wedding present,\" I said steadily, \"I want to buy him the farm he grew up on. Can you tell me where it is? I haven't told the realtor I want to see this one particular farm because of course she'll know I want it for some reason, and Joseph Flocken won't sell to me if he knows I'm going to give it to",
+        "prediction": "Martin.\"\n\n\"",
+        "gold": "Martin"
+    },
+    "19": {
+        "origin_prompt": "Please complete the following sentence:\nI asked from around the sudden lump of fear in my throat.\nChristophe waved a little hand. \"Your choice.\"\n\"What to meet the president?\" I asked Lynette.\n\"I don't have anything I could wear to something like that.\" Her face turned red. \n\"Dress uniforms for all,\" said",
+        "prediction": "Christophe. \"We",
+        "gold": "Christophe"
+    },
+    "20": {
+        "origin_prompt": "Please complete the following sentence:\nNicholas lowered his gaze to meet hers and nodded solemnly. \"Because I turned you.\"\n\nHer eyebrows flew up, and Jo stared at him for a moment and then asked, \"Turned me? You mean you gave me nanos and now I'm like you?\"\n\nNicholas nodded grimly, and then blurted, \"I'm sorry,",
+        "prediction": "Jo. I didn'",
+        "gold": "Jo"
+    },
+    "21": {
+        "origin_prompt": "Please complete the following sentence:\nI looked at the kid who ran into me, and he did the same. But his reaction was a lot different then mine. The kid turned around and came back over to me. He grabbed my shirt, touching me. He was my height, but I was still scared. \n“What are you looking at,",
+        "prediction": "kid?” he said.",
+        "gold": "kid"
+    },
+    "22": {
+        "origin_prompt": "Please complete the following sentence:\n“Well, did you forget about me?” said Vidal. \n“I’m sorry,” said Ana. “Hi. I was distracted for a moment.”\nVidal was not alone. Kim was standing next to him.\n“Mind if we sat down?” said Vidal.\n“Not at all, please,” said",
+        "prediction": "Ana.\n“I",
+        "gold": "Ana"
+    },
+    "23": {
+        "origin_prompt": "Please complete the following sentence:\n‘\nHer thoughts immediately ran to her brother, who no doubt was still by the fire. What was left of the thick wooden trees had gone flying in the direction of their lodgings. She knew they were not built nearly strong enough to withstand these kinds of winds. This gust put all the English winds to shame. It almost didn’t even feel like a",
+        "prediction": "gust. It felt",
+        "gold": "wind"
+    },
+    "24": {
+        "origin_prompt": "Please complete the following sentence:\n* * *\n\nAlex sat down in the hotel restaurant across from Rachel. He didn't want to be here. He had no desire to sit across from the woman who'd broken his heart and talk about anything. And if he had to be here, he preferred Madison be by his side. He didn't like the look on her face when she'd told him to go with",
+        "prediction": "Rachel.\n\n",
+        "gold": "Rachel"
+    },
+    "25": {
+        "origin_prompt": "Please complete the following sentence:\nThe half smile still played on his lips. There was a long silence.\n\n\"Oh, look. It's Hamnet. He's not dead,\" said Ripred finally. The rat picked up what appeared to be a human skull and started to gnaw on it.\n\n\"The skull is a nice touch, Ripred,\" said",
+        "prediction": "the fox. \"",
+        "gold": "Hamnet"
+    },
+    "26": {
+        "origin_prompt": "Please complete the following sentence:\nThe woman retrieved an object from her coat pocket and showed it to Sheffield before returning it to a shirt pocket. It was John's NSA satellite phone. \"I am she,\" she replied, as she took off her heavy winter coat and made herself comfortable by sitting down in the booth opposite Sheffield. \"Did you bring me what I",
+        "prediction": "asked for?\"\n\"",
+        "gold": "requested"
+    },
+    "27": {
+        "origin_prompt": "Please complete the following sentence:\nIn other words, a fake wall had been built \n\nand there were no doors or windows on the inside or outside \n\nof those walls to give access to the unexplained extra \n\nfootage. So, she told him to tear the wall out.”\n\nManda and Teresa glanced at each other.\n\n“Ah…a mystery,” said",
+        "prediction": "Manda.\n\n",
+        "gold": "Manda"
+    },
+    "28": {
+        "origin_prompt": "Please complete the following sentence:\nHe was at least a hundred yards from the intersection. Crouched low, he looked back and studied the scene. He memorized the parked cars and then focused on the truck, which had stopped. A short, heavy man had jumped from the cab to bend over the three wounded men. Smith did not recognize him, but he knew that",
+        "prediction": "the man was a doctor",
+        "gold": "truck"
+    },
+    "29": {
+        "origin_prompt": "Please complete the following sentence:\nDo you like it?”\nBryn was quiet for a moment as if she was trying to find the right words to say.  “I like parts of it.”\n“Which parts?”\n“I like that my father is a teacher there,” she explained.  “He makes sure I’m put in the best",
+        "prediction": "classes and that I’",
+        "gold": "classes"
+    },
+    "30": {
+        "origin_prompt": "Please complete the following sentence:\n\"Okay then,\" the enactor said, holding up the blank disc of glass. \"I show you lens making from beginning.\" He picked up a short wooden ruler and a sharp metal scribe in the other hand. \"We must get the exact center of the disc, so it spins perfetto.\" The Master carefully used the crude ruler to determine the exact center of the disc, then scratched a small X into it with the",
+        "prediction": "scribe. \"Now",
+        "gold": "scribe"
+    },
+    "31": {
+        "origin_prompt": "Please complete the following sentence:\nTom sighed.  “I probably wasn’t as gentlemanly as I should have been.”\nJessica burst out laughing.  “Are you kidding?  That was great.” Then she quickly sobered.  “Your ma doesn’t allow critters into the house, does she?”\n“That depends on what you call a",
+        "prediction": "critter.”\n“",
+        "gold": "critter"
+    },
+    "32": {
+        "origin_prompt": "Please complete the following sentence:\nShe will accompany you on the tour. Also for her it is the first time she is here. Meet her in the lobby in an hour.”\nPieter got up on his feet, still trying to interpret the information of the past talks. \n“I will be there.” \nIveta added quickly: “why don't you take Jane with you,",
+        "prediction": "she is a good guide",
+        "gold": "Pieter"
+    },
+    "33": {
+        "origin_prompt": "Please complete the following sentence:\nHe was very eager to go to the sacred isle.” \nFiach pointed down the beach. “The fisherfolk are coming.”\n“Shouldn’t the Decangi cross before us?” Tadhg asked. “They arrived before we did.” \n“They’re waiting for another group,” Fiach said. “They’ve agreed we should be",
+        "prediction": "the first to cross.”",
+        "gold": "first"
+    },
+    "34": {
+        "origin_prompt": "Please complete the following sentence:\nLita’s ship looked like one great vessel of bereavement. Even the sails were jet black. The closer he got the more impatient he grew. Under the dim, morning skies, he saw images of men loading coffins onto her ship. \n“Hurry!” He hollered. \nHe grew more anxious by the second. There were coffins that had yet to be",
+        "prediction": "loaded. He could see",
+        "gold": "loaded"
+    },
+    "35": {
+        "origin_prompt": "Please complete the following sentence:\nYesterday morning everything was still the same as ever and then suddenly ... I feel as if my head's splitting, having to take so much in all at once-thousands of scraps of information that won't fit together properly.\"\n\n\"I'm so sorry,\" said Mum. \"I hoped to spare you all this.\"\n\n\"What was it you once did to make them all so cross with you?\"\n\n\"I helped Lucy and Paul to get away,\" said",
+        "prediction": "Mum. \"I",
+        "gold": "Mum"
+    },
+    "36": {
+        "origin_prompt": "Please complete the following sentence:\nJust as Shane started to breathe easier, the boat lurched, then suddenly stalled, nearly knocking him off his feet. Gripping the wheel tightly, he looked out, horrified when he saw the hole in the side of his yacht. He must have hit a reef.\n\nThe boat was going down. \"Lia, we have to abandon ship. Grab the emergency pack and we'll get in the",
+        "prediction": "life raft.\"\n",
+        "gold": "lifeboat"
+    },
+    "37": {
+        "origin_prompt": "Please complete the following sentence:\nHonour yells.\nI try to claw my way out of the pain but I’d really like to sleep.\n“You know I’ll keep you safe. Anything else can happen and I won’t care, but I won’t let a single thing happen to you.”\n“That sounds dangerously close to a",
+        "prediction": "promise.”\n“I",
+        "gold": "promise"
+    },
+    "38": {
+        "origin_prompt": "Please complete the following sentence:\n“Mr. Holmes is not gonna like that,” said Stacie.\nA black spot scrambled away.  They had left the flashlight somewhere on the ground, but they were certain they wouldn’t have wanted to see what happened to the shed or what ran from them.\n“Now I really hope Mr. Holmes doesn’t look back here,” said",
+        "prediction": "Stacie.\n",
+        "gold": "Stacie"
+    },
+    "39": {
+        "origin_prompt": "Please complete the following sentence:\nSee, Uncle Dane, it has the same purple stone in it.”\nDane studied the ring and saw that it did look similar to the one he always wore on his right hand.  He raised his head and asked, “How much for this ring?”\nThe woman behind the counter widened her eyes in apparent surprise and she faltered a little as she said the",
+        "prediction": "price.  “F",
+        "gold": "price"
+    },
+    "40": {
+        "origin_prompt": "Please complete the following sentence:\nHe reached into the mini fridge for a bottle of water, then sat down opposite his manager.\n\nHarry smiled, but it was a smile with a warning inside it. \"The redhead?\"\n\nGraham tipped his head back and took a swig of water, his eyes on the ceiling. When he'd finished, he wiped his mouth with the back of his hand and said, in a voice that didn't entirely sound like his own, \"What",
+        "prediction": "redhead?\"\n\n",
+        "gold": "redhead"
+    },
+    "41": {
+        "origin_prompt": "Please complete the following sentence:\n\"If you want me to beg then I'm begging you. Please, don't make me remember-\"\n\nSo much f**king pain, he thought in agony as he looked at Velvet's tormented expression. So much f**king pain and he was the cause of it. Tearing her hands off her ears, Mykolas said roughly, \"Listen to me,",
+        "prediction": "Velvet. I'",
+        "gold": "Velvet"
+    },
+    "42": {
+        "origin_prompt": "Please complete the following sentence:\n\"Hi,\" he said. He was gratified to see a funny look on Goldie's face.\n\nAdie turned to Goldie, and then looked back at Brian. \"Uh, you talking to me?\"\n\n\"Yeah. I'm Brian Morton. And you are?\"\n\n\"Adele,\" she stammered, unable to believe that this incredibly hot boy - the most desired stud on campus, if the rumors were to be believed - was speaking to her and not",
+        "prediction": "some other girl.\n",
+        "gold": "Goldie"
+    },
+    "43": {
+        "origin_prompt": "Please complete the following sentence:\nHe didn't want to discuss the case in a public place, where a lot of locals were hanging about. She put on her sweater and they found a bench on one of the docks overlooking the marina.\nHe said bluntly, “The cops are telling me this is arson. They want me to prosecute. What they haven't told me is who I'm supposed to",
+        "prediction": "prosecute.”\n",
+        "gold": "prosecute"
+    },
+    "44": {
+        "origin_prompt": "Please complete the following sentence:\n\"But I don't even know how to use a sword.\"\n\n\"Apparently you learn quickly,\" said Ares, and somehow that made Gregor laugh a little. He looked around the cave. There were food supplies, blankets, spare torches.\n\n\"What's this place? Like, your hideout?\" Gregor asked.\n\n\"Yes, my hideout,\" said",
+        "prediction": "Ares. \"I",
+        "gold": "Ares"
+    },
+    "45": {
+        "origin_prompt": "Please complete the following sentence:\nhe asked when Aaron was out of earshot. \"You didn't leave it in the cab that dropped you off, did you?\"\n\n\"No, I didn't bring anything. Just myself. I was hoping Maria might loan me a few things to wear.\"\n\nSteven frowned. \"You came all the way to Italy with nothing but the clothes on your back and a",
+        "prediction": "few dollars in your pocket",
+        "gold": "passport"
+    },
+    "46": {
+        "origin_prompt": "Please complete the following sentence:\n\"That's a lousy way to spend your wedding night,\" Topher said.\n\"I told you I'd seen worse.  Make you feel better?\"\n\"A bit,\" Topher admitted.\nLashonda traced a claw around the edge of her precious marriage license.  She was glad that dogs and cats like the Chihuahua and the handcuffed tom had blazed the way, making it easier for her and",
+        "prediction": "Topher to get married",
+        "gold": "Topher"
+    },
+    "47": {
+        "origin_prompt": "Please complete the following sentence:\nMark couldn't believe how quickly she'd gone from totally fine to literally on the ground, too weak to stand. \"Go and let me figure this thing out. Maybe I just ate something weird.\" But Mark could tell she didn't believe that.\n\n\"We can't just keep abandoning people,\" the Toad said, glaring at",
+        "prediction": "the other two. \"",
+        "gold": "Mark"
+    },
+    "48": {
+        "origin_prompt": "Please complete the following sentence:\nThe Marshall cried, “All rise!” and the nine Justices stood up and began filing out.\nOrson looked at Joseph in astonishment and said, “So, that’s it? Chism’s case is dismissed, without him even being permitted to appear?”\n“It’s far worse than that,",
+        "prediction": "Orson,” Joseph said",
+        "gold": "Orson"
+    },
+    "49": {
+        "origin_prompt": "Please complete the following sentence:\n“And when we’re sure they are off you must tell me everything, even the bad parts. I’ve arranged an expedited hearing in County Superior, and it’s better if we bring up damaging evidence before they do.”\nDesmond thought. “How soon is expedited?” he asked. \n“Two days,” Cynthia replied. \n“Two days… that works,” said",
+        "prediction": "Desmond. “I",
+        "gold": "Desmond"
+    }
+}

@@ -1,0 +1,2 @@
+dataset,version,metric,mode,llama-2-7b-hf
+lambada,217e11,accuracy,gen,73.32

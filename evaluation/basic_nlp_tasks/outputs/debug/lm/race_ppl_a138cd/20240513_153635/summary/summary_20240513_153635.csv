@@ -1,0 +1,3 @@
+dataset,version,metric,mode,llama-2-7b-hf
+race-middle,0c332f,accuracy,ppl,33.15
+race-high,0c332f,accuracy,ppl,35.51

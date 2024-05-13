@@ -1,0 +1,54 @@
+05/13 21:14:14 - OpenCompass - INFO - Task [llama-2-7b-hf/lambada_4]
+05/13 21:14:16 - OpenCompass - WARNING - pad_token_id is not set for the tokenizer.
+05/13 21:14:16 - OpenCompass - WARNING - Using eos_token_id </s> as pad_token_id.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][2024-05-13 21:14:20,315] torch.distributed.elastic.agent.server.api: [WARNING] Received Signals.SIGINT death signal, shutting down workers
+[2024-05-13 21:14:20,315] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 150742 closing signal SIGINT
+Loading checkpoint shards:   0%|          | 0/2 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/opt/data/private/ljx/opencompass/opencompass/tasks/openicl_infer.py", line 162, in <module>
+    inferencer.run()
+  File "/opt/data/private/ljx/opencompass/opencompass/tasks/openicl_infer.py", line 73, in run
+    self.model = build_model_from_cfg(model_cfg)
+  File "/opt/data/private/ljx/opencompass/opencompass/utils/build.py", line 26, in build_model_from_cfg
+    return MODELS.build(model_cfg)
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/mmengine/registry/registry.py", line 570, in build
+    return self.build_func(cfg, *args, **kwargs, registry=self)
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/mmengine/registry/build_functions.py", line 121, in build_from_cfg
+    obj = obj_cls(**args)  # type: ignore
+  File "/opt/data/private/ljx/opencompass/opencompass/models/huggingface.py", line 124, in __init__
+    self._load_model(path=path,
+  File "/opt/data/private/ljx/opencompass/opencompass/models/huggingface.py", line 674, in _load_model
+    self.model = AutoModelForCausalLM.from_pretrained(path, **model_kwargs)
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 561, in from_pretrained
+    return model_class.from_pretrained(
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3502, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3926, in _load_pretrained_model
+    new_error_msgs, offload_index, state_dict_index = _load_state_dict_into_meta_model(
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/transformers/modeling_utils.py", line 805, in _load_state_dict_into_meta_model
+    set_module_tensor_to_device(model, param_name, param_device, **set_module_kwargs)
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/accelerate/utils/modeling.py", line 400, in set_module_tensor_to_device
+    new_value = value.to(device)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/opt/conda/envs/qllm_eval/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 346, in wrapper
+    return f(*args, **kwargs)
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/torch/distributed/run.py", line 806, in main
+    run(args)
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 255, in launch_agent
+    result = agent.run()
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/torch/distributed/elastic/metrics/api.py", line 124, in wrapper
+    result = f(*args, **kwargs)
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 736, in run
+    result = self._invoke_run(role)
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 877, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 62, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 150595 got signal: 2
