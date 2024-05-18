@@ -1,0 +1,42 @@
+dataset,longchat-7b-hf
+NeedleBench-Overall-Score,-
+dataset,longchat-7b-hf
+--------- NeedleBench-4K-Single-Needle-Retrieval ---------,-
+dataset,longchat-7b-hf
+Single-Needle-Retrieval(S-RT),-
+dataset,longchat-7b-hf
+Single-Needle-Retrieval-EN,69.28
+Single-Needle-Retrieval-ZH,-
+dataset,longchat-7b-hf
+--------- NeedleBench-4K-Multi-Needle-Retrieval ---------,-
+dataset,longchat-7b-hf
+Multi-Needle-Retrieval(M-RT),-
+dataset,longchat-7b-hf
+Multi-Needle-Retrieval-EN,-
+dataset,longchat-7b-hf
+Multi-Needle-Retrieval-ZH,-
+dataset,longchat-7b-hf
+--------- NeedleBench-4K-Multi-Needle-Reasoning ---------,-
+dataset,longchat-7b-hf
+Multi-Needle-Reasoning(M-RS),-
+dataset,longchat-7b-hf
+Multi-Needle-Reasoning-EN,-
+dataset,longchat-7b-hf
+Multi-Needle-Reasoning-ZH,-
+dataset,longchat-7b-hf
+2-Needle-EN-4K,-
+dataset,longchat-7b-hf
+2-Needle-ZH-4K,-
+dataset,longchat-7b-hf
+3-Needle-EN-4K,-
+dataset,longchat-7b-hf
+3-Needle-ZH-4K,-
+dataset,longchat-7b-hf
+4-Needle-EN-4K,-
+dataset,longchat-7b-hf
+4-Needle-ZH-4K,-
+dataset,longchat-7b-hf
+5-Needle-EN-4K,-
+dataset,longchat-7b-hf
+5-Needle-ZH-4K,-
+dataset,longchat-7b-hf

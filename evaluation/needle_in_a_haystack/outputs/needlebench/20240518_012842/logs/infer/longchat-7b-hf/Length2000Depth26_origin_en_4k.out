@@ -1,0 +1,66 @@
+05/18 01:29:10 - OpenCompass - INFO - Task [longchat-7b-hf/Length2000Depth26_origin_en_4k,longchat-7b-hf/Length2000Depth31_origin_en_4k,longchat-7b-hf/Length2000Depth36_origin_en_4k,longchat-7b-hf/Length2000Depth42_origin_en_4k,longchat-7b-hf/Length2000Depth47_origin_en_4k,longchat-7b-hf/Length2000Depth52_origin_en_4k,longchat-7b-hf/Length2000Depth57_origin_en_4k,longchat-7b-hf/Length2000Depth63_origin_en_4k,longchat-7b-hf/Length2000Depth68_origin_en_4k,longchat-7b-hf/Length2000Depth73_origin_en_4k,longchat-7b-hf/Length2000Depth78_origin_en_4k,longchat-7b-hf/Length2000Depth84_origin_en_4k,longchat-7b-hf/Length2000Depth89_origin_en_4k,longchat-7b-hf/Length2000Depth94_origin_en_4k,longchat-7b-hf/Length2000Depth100_origin_en_4k,longchat-7b-hf/Length3000Depth0_origin_en_4k,longchat-7b-hf/Length3000Depth5_origin_en_4k,longchat-7b-hf/Length3000Depth10_origin_en_4k,longchat-7b-hf/Length3000Depth15_origin_en_4k,longchat-7b-hf/Length3000Depth21_origin_en_4k,longchat-7b-hf/Length3000Depth26_origin_en_4k,longchat-7b-hf/Length3000Depth31_origin_en_4k,longchat-7b-hf/Length3000Depth36_origin_en_4k,longchat-7b-hf/Length3000Depth42_origin_en_4k,longchat-7b-hf/Length3000Depth47_origin_en_4k]
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]/opt/conda/envs/qllm_eval/lib/python3.9/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.01s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.50s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:15<00:00,  7.72s/it]
+05/18 01:29:32 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth26_origin_en_4k]
+[2024-05-18 01:29:32,288] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:13<00:13, 13.38s/it]100%|██████████| 2/2 [00:15<00:00,  6.60s/it]100%|██████████| 2/2 [00:15<00:00,  7.62s/it]
+05/18 01:29:47 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth31_origin_en_4k]
+[2024-05-18 01:29:47,710] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:20<00:20, 20.34s/it]100%|██████████| 2/2 [00:22<00:00,  9.67s/it]100%|██████████| 2/2 [00:22<00:00, 11.27s/it]
+05/18 01:30:10 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth36_origin_en_4k]
+[2024-05-18 01:30:10,434] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:13<00:13, 13.68s/it]100%|██████████| 2/2 [00:15<00:00,  6.70s/it]100%|██████████| 2/2 [00:15<00:00,  7.75s/it]
+05/18 01:30:26 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth42_origin_en_4k]
+[2024-05-18 01:30:26,130] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:20<00:20, 20.39s/it]100%|██████████| 2/2 [00:22<00:00,  9.48s/it]100%|██████████| 2/2 [00:22<00:00, 11.12s/it]
+05/18 01:30:48 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth47_origin_en_4k]
+[2024-05-18 01:30:48,545] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:07<00:07,  7.34s/it]100%|██████████| 2/2 [00:09<00:00,  4.08s/it]100%|██████████| 2/2 [00:09<00:00,  4.57s/it]
+05/18 01:30:57 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth52_origin_en_4k]
+[2024-05-18 01:30:57,887] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:07<00:07,  7.07s/it]100%|██████████| 2/2 [00:08<00:00,  3.98s/it]100%|██████████| 2/2 [00:08<00:00,  4.44s/it]
+05/18 01:31:06 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth57_origin_en_4k]
+[2024-05-18 01:31:06,958] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:20<00:20, 20.46s/it]100%|██████████| 2/2 [00:22<00:00,  9.51s/it]100%|██████████| 2/2 [00:22<00:00, 11.15s/it]
+05/18 01:31:29 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth63_origin_en_4k]
+[2024-05-18 01:31:29,483] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:23<00:23, 23.70s/it]100%|██████████| 2/2 [00:25<00:00, 10.83s/it]100%|██████████| 2/2 [00:25<00:00, 12.76s/it]
+05/18 01:31:55 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth68_origin_en_4k]
+[2024-05-18 01:31:55,172] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:10<00:10, 10.73s/it]100%|██████████| 2/2 [00:12<00:00,  5.50s/it]100%|██████████| 2/2 [00:12<00:00,  6.29s/it]
+05/18 01:32:07 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth73_origin_en_4k]
+[2024-05-18 01:32:07,965] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:23<00:23, 23.04s/it]100%|██████████| 2/2 [00:24<00:00, 10.56s/it]100%|██████████| 2/2 [00:24<00:00, 12.43s/it]
+05/18 01:32:32 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth78_origin_en_4k]
+[2024-05-18 01:32:33,013] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:11<00:11, 11.19s/it]100%|██████████| 2/2 [00:13<00:00,  5.69s/it]100%|██████████| 2/2 [00:13<00:00,  6.52s/it]
+05/18 01:32:46 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth84_origin_en_4k]
+[2024-05-18 01:32:46,257] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:25<00:25, 25.35s/it]100%|██████████| 2/2 [00:27<00:00, 11.52s/it]100%|██████████| 2/2 [00:27<00:00, 13.59s/it]
+05/18 01:33:13 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth89_origin_en_4k]
+[2024-05-18 01:33:13,655] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:20<00:20, 20.24s/it]100%|██████████| 2/2 [00:22<00:00,  9.41s/it]100%|██████████| 2/2 [00:22<00:00, 11.03s/it]
+05/18 01:33:35 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth94_origin_en_4k]
+[2024-05-18 01:33:35,891] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:20<00:20, 20.45s/it]100%|██████████| 2/2 [00:22<00:00,  9.65s/it]100%|██████████| 2/2 [00:22<00:00, 11.27s/it]
+05/18 01:33:58 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length2000Depth100_origin_en_4k]
+[2024-05-18 01:33:58,622] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:22<00:22, 22.61s/it]100%|██████████| 2/2 [00:24<00:00, 10.43s/it]100%|██████████| 2/2 [00:24<00:00, 12.25s/it]
+05/18 01:34:23 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length3000Depth0_origin_en_4k]
+[2024-05-18 01:34:23,436] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:28<00:28, 28.31s/it]100%|██████████| 2/2 [00:34<00:00, 15.09s/it]100%|██████████| 2/2 [00:34<00:00, 17.07s/it]
+05/18 01:34:57 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length3000Depth5_origin_en_4k]
+[2024-05-18 01:34:57,838] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:28<00:28, 28.18s/it]100%|██████████| 2/2 [00:33<00:00, 15.01s/it]100%|██████████| 2/2 [00:33<00:00, 16.98s/it]
+05/18 01:35:31 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length3000Depth10_origin_en_4k]
+[2024-05-18 01:35:32,045] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:28<00:28, 28.19s/it]100%|██████████| 2/2 [00:34<00:00, 15.39s/it]100%|██████████| 2/2 [00:34<00:00, 17.31s/it]
+05/18 01:36:06 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length3000Depth15_origin_en_4k]
+[2024-05-18 01:36:06,900] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:28<00:28, 28.30s/it]100%|██████████| 2/2 [00:34<00:00, 15.08s/it]100%|██████████| 2/2 [00:34<00:00, 17.06s/it]
+05/18 01:36:41 - OpenCompass - INFO - Start inferencing [longchat-7b-hf/Length3000Depth21_origin_en_4k]
+[2024-05-18 01:36:41,299] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:28<00:28, 28.08s/it]100%|██████████| 2/2 [00:33<00:00, 14.99s/it]100%|██████████| 2/2 [00:33<00:00, 16.95s/it]
+05/18 01:37:15 - OpenCompass - INFO - time elapsed: 484.62s

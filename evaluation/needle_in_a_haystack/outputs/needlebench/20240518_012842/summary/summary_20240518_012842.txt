@@ -1,0 +1,185 @@
+20240518_012842
+tabulate format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset                                                     longchat-7b-hf
+----------------------------------------------------------  ----------------
+NeedleBench-Overall-Score                                   -
+dataset                                                     longchat-7b-hf
+--------- NeedleBench-4K-Single-Needle-Retrieval ---------  -
+dataset                                                     longchat-7b-hf
+Single-Needle-Retrieval(S-RT)                               -
+dataset                                                     longchat-7b-hf
+Single-Needle-Retrieval-EN                                  69.28
+Single-Needle-Retrieval-ZH                                  -
+dataset                                                     longchat-7b-hf
+--------- NeedleBench-4K-Multi-Needle-Retrieval ---------   -
+dataset                                                     longchat-7b-hf
+Multi-Needle-Retrieval(M-RT)                                -
+dataset                                                     longchat-7b-hf
+Multi-Needle-Retrieval-EN                                   -
+dataset                                                     longchat-7b-hf
+Multi-Needle-Retrieval-ZH                                   -
+dataset                                                     longchat-7b-hf
+--------- NeedleBench-4K-Multi-Needle-Reasoning ---------   -
+dataset                                                     longchat-7b-hf
+Multi-Needle-Reasoning(M-RS)                                -
+dataset                                                     longchat-7b-hf
+Multi-Needle-Reasoning-EN                                   -
+dataset                                                     longchat-7b-hf
+Multi-Needle-Reasoning-ZH                                   -
+dataset                                                     longchat-7b-hf
+2-Needle-EN-4K                                              -
+dataset                                                     longchat-7b-hf
+2-Needle-ZH-4K                                              -
+dataset                                                     longchat-7b-hf
+3-Needle-EN-4K                                              -
+dataset                                                     longchat-7b-hf
+3-Needle-ZH-4K                                              -
+dataset                                                     longchat-7b-hf
+4-Needle-EN-4K                                              -
+dataset                                                     longchat-7b-hf
+4-Needle-ZH-4K                                              -
+dataset                                                     longchat-7b-hf
+5-Needle-EN-4K                                              -
+dataset                                                     longchat-7b-hf
+5-Needle-ZH-4K                                              -
+dataset                                                     longchat-7b-hf
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+csv format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dataset,longchat-7b-hf
+NeedleBench-Overall-Score,-
+dataset,longchat-7b-hf
+--------- NeedleBench-4K-Single-Needle-Retrieval ---------,-
+dataset,longchat-7b-hf
+Single-Needle-Retrieval(S-RT),-
+dataset,longchat-7b-hf
+Single-Needle-Retrieval-EN,69.28
+Single-Needle-Retrieval-ZH,-
+dataset,longchat-7b-hf
+--------- NeedleBench-4K-Multi-Needle-Retrieval ---------,-
+dataset,longchat-7b-hf
+Multi-Needle-Retrieval(M-RT),-
+dataset,longchat-7b-hf
+Multi-Needle-Retrieval-EN,-
+dataset,longchat-7b-hf
+Multi-Needle-Retrieval-ZH,-
+dataset,longchat-7b-hf
+--------- NeedleBench-4K-Multi-Needle-Reasoning ---------,-
+dataset,longchat-7b-hf
+Multi-Needle-Reasoning(M-RS),-
+dataset,longchat-7b-hf
+Multi-Needle-Reasoning-EN,-
+dataset,longchat-7b-hf
+Multi-Needle-Reasoning-ZH,-
+dataset,longchat-7b-hf
+2-Needle-EN-4K,-
+dataset,longchat-7b-hf
+2-Needle-ZH-4K,-
+dataset,longchat-7b-hf
+3-Needle-EN-4K,-
+dataset,longchat-7b-hf
+3-Needle-ZH-4K,-
+dataset,longchat-7b-hf
+4-Needle-EN-4K,-
+dataset,longchat-7b-hf
+4-Needle-ZH-4K,-
+dataset,longchat-7b-hf
+5-Needle-EN-4K,-
+dataset,longchat-7b-hf
+5-Needle-ZH-4K,-
+dataset,longchat-7b-hf
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+-------------------------------------------------------------------------------------------------------------------------------- THIS IS A DIVIDER --------------------------------------------------------------------------------------------------------------------------------
+
+raw format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
+Model: longchat-7b-hf
+Length1000Depth0_origin_en_4k: {'score': 100.0}
+Length1000Depth5_origin_en_4k: {'score': 100.0}
+Length1000Depth10_origin_en_4k: {'score': 100.0}
+Length1000Depth15_origin_en_4k: {'score': 100.0}
+Length1000Depth21_origin_en_4k: {'score': 90.21511627906978}
+Length1000Depth26_origin_en_4k: {'score': 90.52542372881355}
+Length1000Depth31_origin_en_4k: {'score': 90.4235294117647}
+Length1000Depth36_origin_en_4k: {'score': 80.12750086335903}
+Length1000Depth42_origin_en_4k: {'score': 90.0}
+Length1000Depth47_origin_en_4k: {'score': 90.0}
+Length1000Depth52_origin_en_4k: {'score': 80.06015037593986}
+Length1000Depth57_origin_en_4k: {'score': 90.0}
+Length1000Depth63_origin_en_4k: {'score': 80.45737318707208}
+Length1000Depth68_origin_en_4k: {'score': 70.70491090830073}
+Length1000Depth73_origin_en_4k: {'score': 60.651686864584896}
+Length1000Depth78_origin_en_4k: {'score': 80.20388349514562}
+Length1000Depth84_origin_en_4k: {'score': 70.47689626364762}
+Length1000Depth89_origin_en_4k: {'score': 80.52747252747253}
+Length1000Depth94_origin_en_4k: {'score': 90.0}
+Length1000Depth100_origin_en_4k: {'score': 70.27476472119926}
+Length2000Depth0_origin_en_4k: {'score': 7.748561883088655}
+Length2000Depth5_origin_en_4k: {'score': 90.66037735849056}
+Length2000Depth10_origin_en_4k: {'score': 100.0}
+Length2000Depth15_origin_en_4k: {'score': 100.0}
+Length2000Depth21_origin_en_4k: {'score': 100.0}
+Length2000Depth26_origin_en_4k: {'score': 100.0}
+Length2000Depth31_origin_en_4k: {'score': 100.0}
+Length2000Depth36_origin_en_4k: {'score': 100.0}
+Length2000Depth42_origin_en_4k: {'score': 90.0}
+Length2000Depth47_origin_en_4k: {'score': 100.0}
+Length2000Depth52_origin_en_4k: {'score': 100.0}
+Length2000Depth57_origin_en_4k: {'score': 100.0}
+Length2000Depth63_origin_en_4k: {'score': 90.0}
+Length2000Depth68_origin_en_4k: {'score': 100.0}
+Length2000Depth73_origin_en_4k: {'score': 100.0}
+Length2000Depth78_origin_en_4k: {'score': 100.0}
+Length2000Depth84_origin_en_4k: {'score': 90.0}
+Length2000Depth89_origin_en_4k: {'score': 100.0}
+Length2000Depth94_origin_en_4k: {'score': 90.73170731707317}
+Length2000Depth100_origin_en_4k: {'score': 90.0}
+Length3000Depth0_origin_en_4k: {'score': 6.310948472973136}
+Length3000Depth5_origin_en_4k: {'score': 6.310948472973136}
+Length3000Depth10_origin_en_4k: {'score': 6.310948472973136}
+Length3000Depth15_origin_en_4k: {'score': 6.310948472973136}
+Length3000Depth21_origin_en_4k: {'score': 6.310948472973136}
+Length3000Depth26_origin_en_4k: {'score': 6.310948472973136}
+Length3000Depth31_origin_en_4k: {'score': 6.310948472973136}
+Length3000Depth36_origin_en_4k: {'score': 6.310948472973136}
+Length3000Depth42_origin_en_4k: {'score': 25.875875976541614}
+Length3000Depth47_origin_en_4k: {'score': 100.0}
+Length3000Depth52_origin_en_4k: {'score': 100.0}
+Length3000Depth57_origin_en_4k: {'score': 90.96153846153847}
+Length3000Depth63_origin_en_4k: {'score': 100.0}
+Length3000Depth68_origin_en_4k: {'score': 100.0}
+Length3000Depth73_origin_en_4k: {'score': 100.0}
+Length3000Depth78_origin_en_4k: {'score': 100.0}
+Length3000Depth84_origin_en_4k: {'score': 100.0}
+Length3000Depth89_origin_en_4k: {'score': 100.0}
+Length3000Depth94_origin_en_4k: {'score': 100.0}
+Length3000Depth100_origin_en_4k: {'score': 90.4040404040404}
+Length4000Depth0_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth5_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth10_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth15_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth21_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth26_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth31_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth36_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth42_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth47_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth52_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth57_origin_en_4k: {'score': 5.876413245327334}
+Length4000Depth63_origin_en_4k: {'score': 100.0}
+Length4000Depth68_origin_en_4k: {'score': 100.0}
+Length4000Depth73_origin_en_4k: {'score': 100.0}
+Length4000Depth78_origin_en_4k: {'score': 90.0}
+Length4000Depth84_origin_en_4k: {'score': 100.0}
+Length4000Depth89_origin_en_4k: {'score': 90.0}
+Length4000Depth94_origin_en_4k: {'score': 90.0}
+Length4000Depth100_origin_en_4k: {'score': 90.0}
+Single-Needle-Retrieval(S-RT): {'error': "missing metrics: ['Length1000Depth0_origin_zh_4k', 'Length1000Depth5_origin_zh_4k', 'Length1000Depth10_origin_zh_4k', 'Length1000Depth15_origin_zh_4k', 'Length1000Depth21_origin_zh_4k', 'Length1000Depth26_origin_zh_4k', 'Length1000Depth31_origin_zh_4k', 'Length1000Depth36_origin_zh_4k', 'Length1000Depth42_origin_zh_4k', 'Length1000Depth47_origin_zh_4k', 'Length1000Depth52_origin_zh_4k', 'Length1000Depth57_origin_zh_4k', 'Length1000Depth63_origin_zh_4k', 'Length1000Depth68_origin_zh_4k', 'Length1000Depth73_origin_zh_4k', 'Length1000Depth78_origin_zh_4k', 'Length1000Depth84_origin_zh_4k', 'Length1000Depth89_origin_zh_4k', 'Length1000Depth94_origin_zh_4k', 'Length1000Depth100_origin_zh_4k', 'Length2000Depth0_origin_zh_4k', 'Length2000Depth5_origin_zh_4k', 'Length2000Depth10_origin_zh_4k', 'Length2000Depth15_origin_zh_4k', 'Length2000Depth21_origin_zh_4k', 'Length2000Depth26_origin_zh_4k', 'Length2000Depth31_origin_zh_4k', 'Length2000Depth36_origin_zh_4k', 'Length2000Depth42_origin_zh_4k', 'Length2000Depth47_origin_zh_4k', 'Length2000Depth52_origin_zh_4k', 'Length2000Depth57_origin_zh_4k', 'Length2000Depth63_origin_zh_4k', 'Length2000Depth68_origin_zh_4k', 'Length2000Depth73_origin_zh_4k', 'Length2000Depth78_origin_zh_4k', 'Length2000Depth84_origin_zh_4k', 'Length2000Depth89_origin_zh_4k', 'Length2000Depth94_origin_zh_4k', 'Length2000Depth100_origin_zh_4k', 'Length3000Depth0_origin_zh_4k', 'Length3000Depth5_origin_zh_4k', 'Length3000Depth10_origin_zh_4k', 'Length3000Depth15_origin_zh_4k', 'Length3000Depth21_origin_zh_4k', 'Length3000Depth26_origin_zh_4k', 'Length3000Depth31_origin_zh_4k', 'Length3000Depth36_origin_zh_4k', 'Length3000Depth42_origin_zh_4k', 'Length3000Depth47_origin_zh_4k', 'Length3000Depth52_origin_zh_4k', 'Length3000Depth57_origin_zh_4k', 'Length3000Depth63_origin_zh_4k', 'Length3000Depth68_origin_zh_4k', 'Length3000Depth73_origin_zh_4k', 'Length3000Depth78_origin_zh_4k', 'Length3000Depth84_origin_zh_4k', 'Length3000Depth89_origin_zh_4k', 'Length3000Depth94_origin_zh_4k', 'Length3000Depth100_origin_zh_4k', 'Length4000Depth0_origin_zh_4k', 'Length4000Depth5_origin_zh_4k', 'Length4000Depth10_origin_zh_4k', 'Length4000Depth15_origin_zh_4k', 'Length4000Depth21_origin_zh_4k', 'Length4000Depth26_origin_zh_4k', 'Length4000Depth31_origin_zh_4k', 'Length4000Depth36_origin_zh_4k', 'Length4000Depth42_origin_zh_4k', 'Length4000Depth47_origin_zh_4k', 'Length4000Depth52_origin_zh_4k', 'Length4000Depth57_origin_zh_4k', 'Length4000Depth63_origin_zh_4k', 'Length4000Depth68_origin_zh_4k', 'Length4000Depth73_origin_zh_4k', 'Length4000Depth78_origin_zh_4k', 'Length4000Depth84_origin_zh_4k', 'Length4000Depth89_origin_zh_4k', 'Length4000Depth94_origin_zh_4k', 'Length4000Depth100_origin_zh_4k']"}
+Single-Needle-Retrieval-EN: {'naive_average': 69.27544195943565}
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

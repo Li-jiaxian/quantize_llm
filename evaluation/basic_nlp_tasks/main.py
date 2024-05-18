@@ -2,16 +2,20 @@ import argparse
 import getpass
 import os
 import os.path as osp
+import sys
 from datetime import datetime
 
 from mmengine.config import Config, DictAction
 
+from opencompass.partitioners import NaivePartitioner, SizePartitioner
 from opencompass.registry import PARTITIONERS, RUNNERS, build_from_cfg
 from opencompass.runners import SlurmRunner
 from opencompass.summarizers import DefaultSummarizer
 from opencompass.utils import LarkReporter, get_logger
-from opencompass.utils.run import (fill_eval_cfg, fill_infer_cfg,
-                                   get_config_from_arg)
+
+# from utils.run import fill_eval_cfg, fill_infer_cfg, get_config_from_arg
+from .utils.run import fill_eval_cfg, fill_infer_cfg, get_config_from_arg
+
 import debugpy
 
 
@@ -23,6 +27,7 @@ def test():
         debugpy.wait_for_client()
     except Exception as e:
         pass
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Run an evaluation task')
@@ -43,6 +48,11 @@ def parse_args():
                                help='Whether to force tasks to run on dlc. If '
                                'True, `--aliyun-cfg` must be set. Defaults'
                                ' to False')
+    # multi-modal support
+    parser.add_argument('--mm-eval',
+                        help='Whether or not enable multimodal evaluation',
+                        action='store_true',
+                        default=False)
     # Add shortcut parameters (models, datasets and summarizer)
     parser.add_argument('--models', nargs='+', help='', default=None)
     parser.add_argument('--datasets', nargs='+', help='', default=None)
@@ -60,12 +70,6 @@ def parse_args():
                         'to run',
                         action='store_true',
                         default=False)
-    parser.add_argument(
-        '--accelerator',
-        help='Infer accelerator, support vllm and lmdeploy now.',
-        choices=['vllm', 'lmdeploy', 'hg'],
-        default='hg',
-        type=str)
     parser.add_argument('-m',
                         '--mode',
                         help='Running mode. You can choose "infer" if you '
@@ -84,7 +88,7 @@ def parse_args():
                         'missing jobs presented in the config. If its '
                         'argument is not specified, the latest results in '
                         'the work_dir will be reused. The argument should '
-                        'also be a specific timestamp, e.g. 20230516_144254')
+                        'also be a specific timestamp, e.g. 20230516_144254'),
     parser.add_argument('-w',
                         '--work-dir',
                         help='Work path, all the outputs will be '
@@ -139,6 +143,17 @@ def parse_args():
         'correctness of each sample, bpb, etc.',
         action='store_true',
     )
+
+    # Add quantization configs
+    parser.add_argument("--w_group_size", type=int, default=128)
+    parser.add_argument("--w_bit", type=int, default=None)
+    parser.add_argument("--a_group_size", type=int, default=128)
+    parser.add_argument("--a_bit", type=int, default=None)
+    parser.add_argument("--kv_group_size", type=int, default=64)
+    parser.add_argument("--kv_bit", type=int, default=None)
+    parser.add_argument("--use_flash_attn", action="store_true", default=False)
+    parser.add_argument("--rep_file", type=str, help="path to load the reparameterization factors")
+
     # set srun args
     slurm_parser = parser.add_argument_group('slurm_args')
     parse_slurm_args(slurm_parser)
@@ -148,9 +163,6 @@ def parse_args():
     # set hf args
     hf_parser = parser.add_argument_group('hf_args')
     parse_hf_args(hf_parser)
-    # set custom dataset args
-    custom_dataset_parser = parser.add_argument_group('custom_dataset_args')
-    parse_custom_dataset_args(custom_dataset_parser)
     args = parser.parse_args()
     if args.slurm:
         assert args.partition is not None, (
@@ -212,26 +224,14 @@ def parse_hf_args(hf_parser):
     hf_parser.add_argument('--pad-token-id', type=int)
 
 
-def parse_custom_dataset_args(custom_dataset_parser):
-    """These args are all for the quick construction of custom datasets."""
-    custom_dataset_parser.add_argument('--custom-dataset-path', type=str)
-    custom_dataset_parser.add_argument('--custom-dataset-meta-path', type=str)
-    custom_dataset_parser.add_argument('--custom-dataset-data-type',
-                                       type=str,
-                                       choices=['mcq', 'qa'])
-    custom_dataset_parser.add_argument('--custom-dataset-infer-method',
-                                       type=str,
-                                       choices=['gen', 'ppl'])
-
-
 def main():
-    # test()
+    test()
     args = parse_args()
     if args.dry_run:
         args.debug = True
     # initialize logger
     logger = get_logger(log_level='DEBUG' if args.debug else 'INFO')
-
+    # import pdb;pdb.set_trace()
     cfg = get_config_from_arg(args)
     if args.work_dir is not None:
         cfg['work_dir'] = args.work_dir
@@ -266,7 +266,6 @@ def main():
     # Config is intentally reloaded here to avoid initialized
     # types cannot be serialized
     cfg = Config.fromfile(output_config_path, format_python_code=False)
-
     # report to lark bot if specify --lark
     if not args.lark:
         cfg['lark_bot_url'] = None
@@ -345,14 +344,7 @@ def main():
         if args.dry_run:
             return
         runner = RUNNERS.build(cfg.eval.runner)
-
-        # For meta-review-judge in subjective evaluation
-        if isinstance(tasks, list) and len(tasks) != 0 and isinstance(
-                tasks[0], list):
-            for task_part in tasks:
-                runner(task_part)
-        else:
-            runner(tasks)
+        runner(tasks)
 
     # visualize
     if args.mode in ['all', 'eval', 'viz']:
