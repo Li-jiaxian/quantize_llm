@@ -19,7 +19,7 @@ Basic instructions on evaluating quantized LLMs with [LongEval](https://github.c
     --a_group_size a_group_size --a_bit a_bit \
     --kv_group_size kv_group_size --kv_bit kv_bit
     ```
-
+结果在new_cases/predictions下
 
 ## For Lost-in-the-middle dataset
 
@@ -47,3 +47,5 @@ Basic instructions on evaluating quantized LLMs with [LongEval](https://github.c
     > The input data file is `<lost-in-the-middle_path>/qa_data/30_total_documents/nq-open-30_total_documents_gold_at_0.jsonl.gz`
 
     > The evaluation results can be found in `/Your/Path/to/Results`.
+
+结果在outputs下，评估方法在原仓库还未迁移。
