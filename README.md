@@ -1,4 +1,4 @@
-# quantize-llm
+# Quantize llm
 
 
 ## Installation
