@@ -11,8 +11,3 @@ for gold_index in 0 4 9; do
     --output_path /opt/data/private/ljx/quantize-llm/evaluation/long_context/outputs/nq-open-10_total_documents_gold_at_${gold_index}-longchat-13b-16k-predictions.jsonl.gz 
     > $log_file 2>&1
 done
-
-# evaluate
-# python scripts/evaluate_qa_responses.py \
-#     --input-path /opt/data/private/ljx/qllm-eval/qllm_eval/evaluation/q_long/litm.jsonl.gz \
-#     --output-path /opt/data/private/ljx/qllm-eval/qllm_eval/evaluation/q_long/litm-score.jsonl.gz
